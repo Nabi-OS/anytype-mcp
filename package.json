@@ -10,8 +10,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "vitest run",
-    "test:dev": "vitest watch",
+    "test": "bunx vitest run",
+    "test:dev": "bunx vitest watch",
     "build": "tsc -build && node scripts/build-cli.js",
     "dev": "tsx watch scripts/start-server.ts",
     "parse-openapi": "tsx scripts/parse-openapi.ts",
